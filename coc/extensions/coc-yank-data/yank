@@ -1,0 +1,79 @@
+929e02e614f8c2666a080e9a60de463b|file:///home/irmo/.config/nvim/general/main.vim|34|1|V|vim
+	let g:go_fmt_command = "goimports"
+95d160f4f241687d2411fa6965ed845c|file:///home/irmo/.config/nvim/vim-plug/plugins.vim|22|5|V|vim
+	    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+ae0b5d195925c5932feebb503e1036fd|file:///home/irmo/go/src/github.com/guess_game/game.go|4|1|V|go
+	    fmt.Println("Hello, World")
+902ec87b21caefc6994dc7d5547860f5|file:///home/irmo/go/src/github.com/guess_game/game.go|3|1|V|go
+	import (
+		"fmt"
+	)
+	
+89eca298ec4f3e32a111bb469a74d2c4|file:///home/irmo/.config/nvim/plug-config/vim-go.vim|2|1|V|vim
+	autocmd FileType go <buffer> <F6> :GoRun
+4bd25a4b5235b23440f95bc45202f3cd|file:///home/irmo/.config/nvim/plug-config/vim-go.vim|2|1|V|vim
+	:nmap <F6> :GoRun <CR>
+f5c88b827b65230290da529257d666ea|file:///home/irmo/.config/nvim/ftplugin/go.vim|4|1|V|vim
+	autocmd FileType go map <buffer> <F6> :GoRun <CR>
+0cf31b2c283ce3431794586df7b0996d|file:///home/irmo/.config/nvim/ftplugin/go.vim|4|4|V|vim
+	    
+2c6eb9fb9cb95344ae16f2bd346d5fc5|file:///home/irmo/.config/nvim/ftplugin/go.vim|3|1|V|vim
+	if filetype == go
+e96d8afc259593a20838480dfb84400b|file:///home/irmo/.config/nvim/ftplugin/go.vim|4|1|V|vim
+	endif
+06b958c514df7d294a1c104ec5c2e40b|file:///home/irmo/.config/nvim/ftplugin/go.vim|4|1|V|vim
+	autocmd FileType python nmap <F6> :!Python3 
+a052dc1105be983c3999f4823e51c414|file:///home/irmo/python/test_files/tmp.py|1|1|v|python
+	print("Hello, World")
+a6008260ad302b80a900142327d47601|file:///home/irmo/.config/nvim/ftplugin/go.vim|4|1|V|vim
+	autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+3ca198194a7d4d4b040bba2c1e22cdc8|file:///home/irmo/python/test_files/tmp.py|2|1|V|python
+	sda wqeq
+826ad6942009bc9963b35dbee1419b9c|file:///home/irmo/python/test_files/tmp.py|2|1|V|python
+	def hello
+9fcd2740710ca6f814bfea9f62cd8123|file:///home/irmo/python/test_files/tmp.py|3|1|V|python
+	asdlka aslkdja
+8b97df8f929cd764d83cbcac61450d54|file:///home/irmo/.config/nvim/ftplugin/python.vim|2|1|V|vim
+	compiler pylint
+691fd80bf0f2d9d7bbdde08ada498c1b|file:///home/irmo/.config/nvim/ftplugin/go.vim|3|31|v|vim
+	new <CR> | 0read <CR> :
+4bc092d6f234708e887a37b1cbfcc3f7|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|13|15|v|go
+	.Args[0]
+	
+a1ea2694bdc4238a41f90d54070aeaaf|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|13|2|V|go
+		fmt.Println().Args[0]
+02178f76d9bc05e483b0436703bae842|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|9|2|V|go
+		fmt.Println("Hello, World")
+ca6b27418760a200f31a195dcb901267|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|14|2|V|go
+		fmt.Println(os.Args[0])
+c1afff63c471a8a2082faf8097dca67a|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|15|3|V|go
+			fmt.Println("")
+2668aaebab2d00dcd9f721d8fa5970cb|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|9|2|V|go
+		fmt.Println("Args : ", os.Args)
+20c1e3dd6d5f1bf6c98ced12564ccf89|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|17|1|V|go
+		// Verbose
+		for _, arg := range os.Args {
+			fmt.Print(arg, " ")
+		}
+		fmt.Println()
+	
+3aaac5f2c85988ecd76a544d38e12997|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|17|1|V|go
+		// Optimized
+4845c64e14e0e13bed6e97d32997b8ba|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|25|3|V|go
+			fmt.Print(i, " : ", arg, " ")
+ef5b459265750d1dbb7ffbc90d48c6f0|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|24|26|v|go
+	i, " : ", arg, " ]
+14fb442f26e2925adec970a1103b50fb|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|24|3|V|go
+			fmt.Print(strings.Join([]string{string(uuuui), " : ", args, " "}))
+93fa8955149d947642e619ea5e1e355c|file:///home/irmo/go/src/the_go_programming_language/ch1/main.go|28|1|V|go
+	fmt.Sprintln()
+9c25d35fffe7b73ae52af074720b4b15|file:///home/irmo/.i3/config|422|1|V|conf
+	bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 2 +5% #increase sound volume
+	bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 2 -5% #decrease sound volume
+	bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 2 toggle # mute sound
+0c562953325b8278b35233d0cc22c43b|file:///home/irmo/.i3/config|423|73|v|conf
+	Master 
+502fe9f573b9f70eed5f6c7d24aadd93|file:///home/irmo/.i3/config|423|73|v|conf
+	$sink
+bde5d79055b92e04e35fac955357ca57|file:///home/irmo/.i3/config|424|78|v|conf
+	kaster 

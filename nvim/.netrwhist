@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/irmo/go/src/gopl.io/ch1/fetchall'
+let g:netrw_dirhist_8='/home/irmo/go/src/gopl.io/ch1'
+let g:netrw_dirhist_7='/home/irmo/go/src/gopl.io'
+let g:netrw_dirhist_6='/home/irmo/go/src/gopl.io/.git'
+let g:netrw_dirhist_5='/home/irmo/go/src/gopl.io'
+let g:netrw_dirhist_4='/home/irmo/.config/nvim/ftplugin'
+let g:netrw_dirhist_3='/home/irmo/.config/nvim/vim-plug'
+let g:netrw_dirhist_2='/home/irmo/python'
+let g:netrw_dirhist_1='/home/irmo/.config/nvim/vim-plug'
+let g:netrw_dirhist_0='/home/irmo/.config/nvim/general'
